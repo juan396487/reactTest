@@ -20,4 +20,4 @@ const search = () => {
   )
 }
 
-export default Typography
+export default search
