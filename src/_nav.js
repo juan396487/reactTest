@@ -28,10 +28,6 @@ const _nav = [
   },
   {
     component: CNavTitle,
-    name: 'Customers',
-  },
-  {
-    component: CNavTitle,
     name: 'Theme',
   },
   {
@@ -45,6 +41,16 @@ const _nav = [
     name: 'Typography',
     to: '/theme/typography',
     icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavTitle,
+    name: 'Customers',
+  },
+  {
+    component: CNavItem,
+    name: 'Search',
+    to: '/customers/search',
+    icon: <CIcon icon={cilChartPie} customClassName="nav-icon" />,
   },
   {
     component: CNavTitle,
